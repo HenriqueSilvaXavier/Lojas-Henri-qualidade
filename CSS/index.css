@@ -1,0 +1,392 @@
+@font-face {
+    font-family: "Eczar";
+    src: url(../fontes/Eczar-VariableFont_wght.ttf) 
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    align-items: center;
+    background-image: url(../imagens/laranja.jpg);
+}
+h1 {
+    color: yellow;
+    margin: 15px;
+    font-family: "Eczar", sans-serif;
+}
+#input-container{
+    margin: auto;
+    transform: translate(-20%, 0);
+}
+input#procurar{
+    margin-left: 5px;
+    width: 280px;
+    height: 30px;
+}
+img#pesquisa{
+    width: 15px;
+    transform: translate(-160%, 20%);
+}
+img#carrinho{
+    width:28px;
+    transform: translate(-150%);
+}
+img#perfil{
+    width: 28px;
+    border-radius: 100%;
+    transform: translate(-100%);
+}
+img#coracao{
+    width: 28px;
+    transform: translate(-50%);
+}
+ul{
+    display: flex;
+}
+li{
+    margin-right: 35px;
+}
+#menu{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+.segundaLinha{
+    display:none;
+}
+input#voltar{
+    margin-right: 30px;
+}
+div#categorias>ul>li{
+    margin:0;
+    display: block;
+}
+h2{
+    margin: 20px;
+}
+div#categorias{
+    background-color: burlywood;
+    margin: 20px;
+    height: 300px;
+    display:none;
+    position: absolute;
+    top: 70px;
+    left: 30px;
+    bottom: 0;
+    overflow-y: auto;
+    z-index: 999;
+    border-radius: 10px;
+    width: 400px;
+    grid-column: 1;
+    grid-row: 2 / span 2;
+}
+h2{
+    text-align: center;
+}
+div#produtos{
+    display: flex;
+    background-color:orange;
+    overflow-y: auto;
+}
+div#produto1{
+    width: 200px;
+    padding: 20px;
+    border: 1px solid brown;
+}
+img#imagem1{
+    width: 200px;
+}
+h3{
+    margin: 5px;
+    font-size: 1rem;
+}
+.estrela{
+    color: gold;
+}
+span.ultimo{
+    margin-right: 8px;
+    color: gold;
+}
+img#produto2{
+    width:155px;
+    display: block;
+    margin: auto;
+}
+div#produto2{
+    width: 260x;
+    padding: 20px;
+    border: 1px solid brown;
+
+}
+div#produto3{
+    width: 230px;
+    padding: 20px;
+    border: 1px solid brown;
+
+}
+img#produto3{
+    width: 200px;
+}
+img#produto4{
+    width: 230px;
+}
+div#produto4{
+    width: 230px;
+    height: 402px;
+    padding: 20px;
+    padding-bottom: 96px;
+    border: 1px solid brown;
+}
+img#produto5{
+    width: 230px;
+}
+div#produto5{
+    width: 280px;
+    height: 464px;
+    padding: 20px;
+    padding-bottom: 34px;
+    border: 1px solid brown;
+}
+img#produto6{
+    width: 280px;
+}
+div#produto6{
+    width: 290px;
+    padding: 20px;
+    padding-bottom: 4px;
+    border: 1px solid brown;
+}
+div#ofertas{
+    display: flex;
+    background-color: orange;
+    overflow-y: auto;
+}
+img#bicicleta{
+    width: 200px;
+}
+div#bicicleta{
+    width: 230px;
+    padding:20px;
+    border: 1px solid brown;
+}
+img#tapete{
+    width: 200px;
+}
+div#tapete{
+    width: 230px;
+    padding:20px;
+    border: 1px solid brown;
+}
+img#maquiagem{
+    width: 240px;
+}
+div#maquiagem{
+    width: 260px;
+    padding: 20px;
+    border: 1px solid brown;
+}
+img#tenis{
+    width: 180px;
+}
+div#tenis{
+    width: 200px;
+    padding: 20px;
+    border: 1px solid brown;
+}
+img#tv{
+    width: 240px;
+}
+div#tv{
+    width: 255px;
+    padding: 20px;
+    border: 1px solid brown;
+}
+img#favoritar1{
+    width: 28px;
+    transform: translate(0, -630%);
+}
+img#favoritar2{
+    width: 28px;
+    transform: translate(90%, -900%);
+}
+img#favoritar3{
+    width: 28px;
+    transform: translate(0, -830%);
+}
+img#favoritar4{
+    width: 28px;
+    transform: translate(0, -950%);
+}
+img#favoritar5{
+    width: 28px;
+    transform: translate(0, -960%);
+}
+img#favoritar6{
+    width: 28px;
+    transform: translate(0, -850%);
+}
+#duna{
+    width: 190px;
+}
+img#favoritar7{
+    width: 28px;
+    transform: translate(10%, -830%);
+}
+img#favoritar8{
+    width: 28px;
+    transform: translate(10%, -830%);
+}
+img#favoritar9{
+    width: 28px;
+    transform: translate(10%, -750%);
+}
+img#favoritar10{
+    width: 28px;
+    transform: translate(10%, -750%);
+}
+img#favoritar11{
+    width: 28px;
+    transform: translate(10%, -730%);
+}
+div#categorias>ul {
+    column-count: 2;
+    column-gap: 100px;
+    display: block;
+}
+#semana{
+    display: block;
+    margin: auto;
+}
+.carousel-container {
+position: relative;
+width: 1100px;
+height: 500px;
+margin: 0 auto;
+overflow: hidden;
+}
+.carousel-slide {
+display: flex;
+transition: transform 0.5s ease;
+}
+.carousel-image {
+width: 100%;
+height: 500px;
+flex: 0 0 auto;
+}
+.carousel-navigation {
+position: absolute;
+bottom: 10px;
+left: 50%;
+transform: translateX(-50%);
+display: flex;
+}
+.carousel-dot {
+width: 10px;
+height: 10px;
+border-radius: 50%;
+background-color: white;
+margin: 0 5px;
+cursor: pointer;
+}
+.carousel-dot.active {
+background-color: #888;
+}
+#promocao2{
+width: 100%;
+}
+section{
+background-color: orange;
+}
+a{
+text-decoration: none;
+color: black;
+}
+footer {
+background-color: #333; 
+color: white;
+padding: 20px; 
+text-align: center; 
+width: 96.86%;
+bottom: 0;
+}
+div#redesSociais img{
+    height: 30px;
+    border-radius: 100%;
+    margin: auto;
+}
+div#redesSociais{
+    background-color: #333;
+    padding: 20px;
+    width: 96.86%;
+    display:block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+img#whatsapp{
+    transform: translate(0, 30%);
+}
+h2#fale{
+    color: white;
+}
+div#redesSociais>p{
+    text-align: center;
+    color: white
+}
+#redes{
+    width: 135px;
+    display: block;
+    margin:auto;
+}
+span.cinza{
+    color:grey !important;
+}
+#desconto1{
+    width: 35px;
+    padding: 3px;
+    background-color:red;
+    color:white;
+    border-radius: 5px;
+    transform: translate(385%, -730%);
+    font-family: sans-serif;
+}
+del{
+    color: red;
+    margin-right: 10px;
+}
+.verde{
+    color: #02B126;
+}
+#desconto2{
+    width: 35px;
+    padding: 3px;
+    background-color:red;
+    color:white;
+    border-radius: 5px;
+    transform: translate(455%, -1050%);
+    font-family: sans-serif;
+}
+#desconto3{
+    width: 35px;
+    padding: 3px;
+    background-color:red;
+    color:white;
+    border-radius: 5px;
+    transform: translate(480%, -850%);
+    font-family: sans-serif;
+}
+#desconto5{
+    width: 35px;
+    padding: 3px;
+    background-color:red;
+    color:white;
+    border-radius: 5px;
+    transform: translate(327%, -1000%);
+    font-family: sans-serif;
+}

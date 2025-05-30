@@ -1,0 +1,664 @@
+@font-face {
+    font-family: "Eczar";
+    src: url(../fontes/Eczar-VariableFont_wght.ttf) 
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    align-items: center;
+    background-image: url(../imagens/laranja.jpg);
+}
+h1 {
+    color: yellow;
+    margin: 15px;
+    font-family: "Eczar", sans-serif;
+}
+#input-container{
+    margin: auto;
+    transform: translate(-20%, 0);
+}
+input#procurar{
+    margin-left: 5px;
+    width: 280px;
+    height: 30px;
+}
+img#pesquisa{
+    width: 15px;
+    transform: translate(-160%, 20%);
+}
+img#carrinho{
+    width:28px;
+    transform: translate(-150%);
+}
+img#perfil{
+    width: 28px;
+    border-radius: 100%;
+    transform: translate(-100%);
+}
+img#coracao{
+    width: 28px;
+    transform: translate(-50%);
+}
+ul{
+    display: flex;
+}
+li{
+    margin-right: 35px;
+}
+#menu{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+.segundaLinha{
+    display:none;
+}
+input#voltar{
+    margin-right: 30px;
+}
+div#categorias>ul>li{
+    margin:0;
+    display: block;
+}
+div#categorias>ul {
+    column-count: 2;
+    column-gap: 100px;
+    display: block;
+}
+h2{
+    margin: 20px;
+    text-align: center;
+    font-family: sans-serif;
+}
+div#categorias{
+    background-color: burlywood;
+    margin: 20px;
+    height: 300px;
+    display:none;
+    position: absolute;
+    top: 70px;
+    left: 30px;
+    bottom: 0;
+    overflow-y: auto;
+    z-index: 999;
+    border-radius: 10px;
+    width: 400px;
+    grid-column: 1;
+    grid-row: 2 / span 2;
+}
+img#computador1{
+    width: 500px;
+    height: 374.867724867px;
+}
+.selecionado{
+    border: 5px solid brown;
+    border-radius: 10px;
+}
+div#aoLado{
+    display: flex;
+}
+#outrasImagens{
+    display: block;
+}
+.foto{
+    height: 100px;
+    display: block;
+    margin: auto;
+}
+#aoLado2{
+    display: block;
+    padding: 20px;
+}
+.estrela{
+    color: gold
+}
+input#comprar{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+img#coracao2{
+    width: 20px;
+    transform: translate(-1300%, 30%);
+    z-index:1;
+}
+img#coracao3{
+    width: 20px;
+    transform: translate(-1400%, 30%);
+    z-index:1;
+}
+input#favoritarBotao{
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    padding-left: 30px;
+    cursor: pointer;
+    border-radius: 5px; 
+    margin-right: 0;
+}
+input#desfavoritarBotao{
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    padding-left: 30px;
+    cursor: pointer;
+    border-radius: 5px; 
+    margin-right: 0;
+}
+input#compartilhar{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    padding-left: 30px;
+    cursor: pointer;
+    border-radius: 5px; 
+    margin-left: 0;
+    transform: translate(0%);
+}
+img#compartilhar{
+    width: 25px;
+    transform: translate(-510%, 30%);
+}
+img#relacionados1{
+    width: 220px;
+    margin: auto;
+}
+div#relacionados1{
+    padding: 20px;
+    border: 1px solid brown
+}
+.cinza{
+    color:grey;
+}
+div#relacionados{
+    display: flex;
+    width: 100%;
+    overflow-y: auto;
+    background-color: orange;
+}
+div#relacionados2{
+    padding: 20px;
+    border: 1px solid brown;
+}
+img#relacionados2{
+    width: 250px;
+    display: block;
+    margin: auto;
+}
+img#relacionados3{
+    width: 300px;
+    margin: auto;
+}
+div#relacionados3{
+    padding: 20px;
+    border: 1px solid brown;
+
+}
+img#relacionados4{
+    width: 300px;
+    margin: auto;
+}
+div#relacionados4{
+    padding: 20px;
+    border: 1px solid brown
+}
+p.inline{
+    display: inline;
+}
+footer {
+    background-color: #333; 
+    color: white;
+    padding: 20px; 
+    text-align: center; 
+    width: 96.86%;
+    bottom: 0;
+}
+a{
+    text-decoration: none;
+}
+img#favoritarRelacionados1{
+    width: 28px;
+    transform: translate(0, -900%);
+}
+img#favoritarRelacionados2{
+    width: 28px;
+    transform: translate(50%, -990%);
+}
+img#favoritarRelacionados3{
+    width: 28px;
+    transform: translate(0, -970%);
+}
+img#favoritarRelacionados4{
+    width: 28px;
+    transform: translate(0, -890%);
+}
+div#redesSociais img{
+    height: 30px;
+    border-radius: 100%;
+    margin: auto;
+}
+div#redesSociais{
+    background-color: #333;
+    padding: 20px;
+    width: 96.86%;
+    margin: auto;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+img#whatsapp{
+    transform: translate(0, 30%);
+}
+h2#fale{
+    color: white;
+}
+div#redesSociais>p{
+    text-align: center;
+    color: white
+}
+#redes{
+    width: 135px;
+    display: block;
+    margin:auto;
+}
+p#nota{
+    font-size: 20px;
+    text-align: center;
+}
+.cinza{
+    color:#ccc;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.notaDoUsuario {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 0px;
+    width: 610.34px;
+}
+.usuario {
+    font-weight: bold;
+}
+.estrelas {
+    color: #FFD700; /* Cor amarela para a classificação */
+}
+.data {
+    color: #888;
+    font-size: 0.8em;
+}
+#avaliacoes{
+    display: flex;
+    flex-wrap: wrap;
+}
+#verMaisAvaliacoes{
+    display: block;
+    margin:auto;
+    margin-top:10px;
+    border-radius: 30px;
+    width: 80px;
+    height: 30px;
+    font-size: 15px;
+    border-color: orange;
+}
+.fotosDePerfil{
+    border-radius: 100%;
+    width: 40px;
+}
+#overlay{
+    position: fixed;
+    padding: 4px;
+    width: 300px;
+    height: 300px;
+    display: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    z-index:3;
+}
+.star-rating {
+    font-size: 0;
+    margin-top: 0;
+}
+
+.star-rating input[type="radio"] {
+    display: none;
+}
+
+.star-rating label {
+    font-size: 1.7rem;
+    cursor: pointer;
+    color: #ccc;
+    margin: 0 0.2rem;
+}
+#avaliar{
+    cursor: pointer;
+    text-align: center;
+}
+#legenda{
+    margin-bottom: 0;
+}
+#simboloX{
+    width: 25px;
+    margin-left: 93%;
+}
+#enviar{
+    margin-top: 4px;
+}
+#escurecimento{
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100%;
+    display:none;
+    position: fixed;
+    z-index:2
+}
+#nota-container{
+    display: flex;
+    margin-left:42%;
+}
+p#notaNumero{
+    margin-left: 10px;
+    font-size: 30px;
+    transform: translate(0, -50%);
+    margin-bottom:0;
+}
+div#overlay2{
+    position: fixed;
+    padding: 6px;
+    width: 380px;
+    height: 380px;
+    display: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    z-index: 3;
+}
+div#overlay2>input#endereco{
+    width: 310px;
+}
+div#overlay2>input{
+    margin: 3px;
+}
+#visaLabel>img{
+    width: 50px;
+}
+#formasDePagamento>input{
+    display: none;
+}
+.formaSelecionada{
+    border: 3px solid blue;
+}
+#formasDePagamentos{
+    margin:5px;
+}
+.formas{
+    width: 30px;
+}
+input#retirada{
+    background-color: #1c70c8;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#hipercard{
+    transform: translate(0, -20%);
+}
+#logo{
+    transform: translate(0, 10%);
+}
+#simboloX2{
+    width: 25px;
+    margin-left: 93%;
+}
+#precosHipercard{
+    display:none;
+}
+#precosMastercard{
+    display:none;
+}
+#precosLojasHenri{
+    display:none;
+}
+#precosPix{
+    display:none;
+}
+input#finalizar{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    position: absolute;
+    top: 74%;
+    left: 68%;
+}
+input#proximo1{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    position: absolute;
+    top: 88%;
+    left: 73%;
+}
+#unidadeContainer{
+    display: none;
+}
+input#endereco{
+    width: 350px;
+}
+#entrega{
+    display: none;
+}
+#inline{
+    display:inline-block
+}
+div#overlay3{
+    position: fixed;
+    padding: 6px;
+    display: none;
+    top: 50%;
+    left: 50%;
+    min-width: 200px;
+    min-height: 150px;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    z-index: 3;
+}
+input#proximo2{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 100px;
+    margin-top: 40px;
+    float: right;
+}
+input#anterior1{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    position: absolute;
+    margin-top: 40px;
+
+}
+div#overlay4{
+    position: fixed;
+    padding: 6px;
+    width: 300px;
+    height: 150px;
+    display: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    z-index: 3;
+}
+#simboloX3{
+    width: 25px;
+    float:right;
+}
+#simboloX4{
+    width: 25px;
+    margin-left: 93%;
+}
+#logo{
+    width: 25px;
+}
+#lojasHenri{
+    width: 25px;
+}
+#copy{
+    width: 20px;
+}
+input#senha{
+    margin: 2px;
+}
+input#anterior2{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    position: absolute;
+    top: 75%;
+    left: 3%;
+}
+div#overlay5{
+    position: fixed;
+    padding: 6px;
+    padding-bottom: 15px;
+    display: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    z-index: 3;
+}
+#cep{
+    padding: 3px;
+    border:none;
+    border-radius: 3px;
+    background-color: lightblue;
+}
+#lupa-branca{
+    width: 18px;
+    transform: translate(-140%, 30%);
+}
+#inline2{
+    display: flex;
+}
+#inline3{
+    display: flex;
+}
+#inline4{
+    display: flex;
+}
+.afastar{
+    margin-left: 250px;
+}
+.pontosClasse{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+#simboloX5{
+    width: 25px;
+    margin-left: 93%;
+}
+#pontos{
+    display: none;
+}
+input[type="text"]{
+    margin: 2px;
+}
+del{
+    color: red;
+}
+.verde{
+    color: #02B126;
+}
+#desconto4{
+    width: 35px;
+    padding: 3px;
+    background-color:red;
+    color:white;
+    border-radius: 5px;
+    transform: translate(630%, -970%);
+    font-family: sans-serif;
+}
+input#finalizar2{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 100px;
+    margin-top: 40px;
+    float: right;
+    display:none;
+}
+#vendedor{
+    color:red;
+}
+#vendedor-container>p{
+    display: inline;
+    margin-right: 5px;
+}
+#entregador{
+    color:red;
+}
+#entregue-container>p{
+    display: inline;
+    margin-right: 5px;
+}
+#aoLado3, #formasDePagamento{
+    display: inline-block;
+}
+#aoLado3{
+    margin-left: 200px;
+}

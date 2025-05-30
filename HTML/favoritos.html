@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favoritos</title>
+    <link rel="stylesheet" href="../CSS/favoritos.css">
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <h1>Lojas Henri</h1>
+        </a>
+        <div id="input-container">
+            <input type="search" name="procurar" id="procurar">
+            <img src="../imagens/pesquisa.jpg" alt="Símbolo de pesquisa" id="pesquisa">
+        </div>
+        <a href="carrinho.html"><abbr title="Carrinho"><img src="../imagens/carrinho.png" alt="ícone de carrinho de loja" id="carrinho"></abbr></a>
+        <abbr title="Conta"><img src="../imagens/foto.jpg" alt="foto de perfil" id="perfil"></abbr>
+        <a href="favoritos.html"><abbr title="Favoritos"><img src="../imagens/heart.png" alt="Símbolo de um coração" id="coracao"></abbr></a>
+    </header>
+    <nav>
+        <img src="../imagens/Hamburger_icon.svg.png" alt="Símbolo do menu hamburguino" id="menu" onclick="verMenu()">
+        <ul type="none">
+            <li class="primeiraLinha">Eletrodomésticos</li>
+            <li class="primeiraLinha">Móveis e decoração</li>
+            <li class="primeiraLinha">Bebês</li>
+            <li class="primeiraLinha">Arte e artesanato</li>
+            <li class="primeiraLinha">Artigos para Pet</li>
+            <li class="primeiraLinha">Eco-Friendly</li>
+            <li class="primeiraLinha">Intrumentos musicais</li>
+            <li class="primeiraLinha">Brinquedos</li>
+            <li class="primeiraLinha">Livros</li>
+
+            <input type="button" value="&#8592" onclick="voltar()" class="segundaLinha" id="voltar">
+            <li class="segundaLinha">Automotivos</li>
+            <li class="segundaLinha">Brinquedos</li>
+            <li class="segundaLinha">Saúde</li>
+            <li class="segundaLinha">Beleza</li>
+            <li class="segundaLinha">Esportes e Lazer</li>
+            <li class="segundaLinha">Papelaria</li>
+            <li class="segundaLinha">Celulares</li>
+            <li class="segundaLinha">Moda</li>
+            <li class="segundaLinha">Gamer</li>
+            <li class="segundaLinha">Material escolar</li>
+            <li class="segundaLinha">Alimentação e bebidas</li>
+            <li class="segundaLinha">Limpeza</li>
+
+        </ul>
+        <input type="button" value="&#8594" onclick="verMais()" class="primeiraLinha">
+
+    </nav>
+    <div id="categorias">
+        <h2 id="titulo-categorias">Categorias</h2>
+        <ul>
+            <li>Eletrodomésticos</li>
+            <li>Móveis</li>
+            <li>Bebês</li>
+            <li>Arte e artesanato</li>
+            <li>Artigos para Pet</li>
+            <li>Eco-Friendly</li>
+            <li>Intrumentos musicais</li>
+            <li>Brinquedos</li>
+            <li>Livros</li>
+            <li>Automotivos</li>
+            <li>Brinquedos</li>
+            <li>Saúde</li>
+            <li>Beleza</li>
+            <li>Livros</li>
+            <li>Esportes</li>
+            <li>Papelaria</li>
+            <li>Celulares</li>
+            <li>Moda</li>
+            <li>Gamer</li>
+            <li>Material escolar</li>
+            <li>Alimentação e Bebidas</li>
+            <li>Limpeza
+        </ul>
+    </div>
+    <h2>Favoritos</h2>
+    <p id="explicacao">Produto(s) que você indicou aos favoritos.</p>
+    <p id="explicacao2">Parece que você não colocou nenhum item nos favoritos</p>
+    <div id="container">
+        <ul></ul>
+    </div>
+    <div id="redesSociais">
+        <h2 id="fale">Fale conosco</h2>
+        <p>(81)8552-1110 <img src="../imagens/whatsapp.png" alt="Símbolo do WhatsApp" id="whatsapp"></p>
+        <div id="redes">
+            <img src="../imagens/instagram.png" alt="Símbolo do instagram">
+            <img src="../imagens/x.png" alt="Símbolo do X">
+            <img src="../imagens/youtube.png" alt="Símbolo do Youtube">
+            <img src="../imagens/facebook.png" alt="Símbolo do Facebook">
+        </div>
+    </div>
+    <footer>
+        &copy; 2024 Henrique Silva Xavier. Todos os direitos reservados.
+    </footer>
+</body>
+<script src="../JS/favoritos.js">
+</script>
+</html>

@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Início</title>
+    <link rel="stylesheet" href="../CSS/index.css">
+</head>
+<body>
+    <header>
+        <h1>Lojas Henri</h1>
+        <div id="input-container">
+            <input type="search" name="procurar" id="procurar">
+            <img src="../imagens/pesquisa.jpg" alt="Símbolo de pesquisa" id="pesquisa">
+        </div>
+        <a href="carrinho.html"><abbr title="Carrinho"><img src="../imagens/carrinho.png" alt="ícone de carrinho de loja" id="carrinho"></abbr></a>
+        <abbr title="Conta"><img src="../imagens/foto.jpg" alt="foto de perfil" id="perfil"></abbr>
+        <a href="favoritos.html"><abbr title="Favoritos"><img src="../imagens/heart.png" alt="Símbolo de um coração" id="coracao"></abbr></a>
+    </header>
+    <nav>
+        <img src="../imagens/Hamburger_icon.svg.png" alt="Símbolo do menu hamburguino" id="menu" onclick="verMenu()">
+        <ul type="none">
+            <li class="primeiraLinha">Eletrodomésticos</li>
+            <li class="primeiraLinha">Móveis e decoração</li>
+            <li class="primeiraLinha">Bebês</li>
+            <li class="primeiraLinha">Arte e artesanato</li>
+            <li class="primeiraLinha">Artigos para Pet</li>
+            <li class="primeiraLinha">Eco-Friendly</li>
+            <li class="primeiraLinha">Intrumentos musicais</li>
+            <li class="primeiraLinha">Brinquedos</li>
+            <li class="primeiraLinha">Livros</li>
+
+            <input type="button" value="&#8592" onclick="voltar()" class="segundaLinha" id="voltar">
+            <li class="segundaLinha">Automotivos</li>
+            <li class="segundaLinha">Brinquedos</li>
+            <li class="segundaLinha">Saúde</li>
+            <li class="segundaLinha">Beleza</li>
+            <li class="segundaLinha">Esportes e Lazer</li>
+            <li class="segundaLinha">Papelaria</li>
+            <li class="segundaLinha">Celulares</li>
+            <li class="segundaLinha">Moda</li>
+            <li class="segundaLinha">Gamer</li>
+            <li class="segundaLinha">Material escolar</li>
+            <li class="segundaLinha">Alimentação e bebidas</li>
+            <li class="segundaLinha">Limpeza</li>
+
+        </ul>
+        <input type="button" value="&#8594" onclick="verMais()" class="primeiraLinha">
+
+    </nav>
+    <div id="categorias">
+        <h2 id="titulo-categorias">Categorias</h2>
+        <ul>
+            <li>Eletrodomésticos</li>
+            <li>Móveis</li>
+            <li>Bebês</li>
+            <li>Arte e artesanato</li>
+            <li>Artigos para Pet</li>
+            <li>Eco-Friendly</li>
+            <li>Intrumentos musicais</li>
+            <li>Brinquedos</li>
+            <li>Livros</li>
+            <li>Automotivos</li>
+            <li>Brinquedos</li>
+            <li>Saúde</li>
+            <li>Beleza</li>
+            <li>Livros</li>
+            <li>Esportes</li>
+            <li>Papelaria</li>
+            <li>Celulares</li>
+            <li>Moda</li>
+            <li>Gamer</li>
+            <li>Material escolar</li>
+            <li>Alimentação e Bebidas</li>
+            <li>Limpeza
+        </ul>
+    </div>
+    <section>
+        <div class="carousel-container">
+            <div class="carousel-slide">
+                <img class="carousel-image" src="../imagens/semana-do-consumidor.jpg" alt="Semana do semana-do-consumidor" id="semana">
+                <img class="carousel-image" src="../imagens/ofertas.jpeg" alt="Ofertas da s" id="promocao2">
+                <img class="carousel-image" src="../imagens/semana2.jpg" alt="Semana do consumidor">
+                <img class="carousel-image" src="../imagens/limpeza.jpg" alt="Promoção de limpeza">
+                <img class="carousel-image" src="../imagens/celulares.jpg" alt="Promoção de roupas">
+                <img class="carousel-image" src="../imagens/Quinzena-do-Consumidor-com-PRECOS-BAIXOS-no-KaBuM-.jpg" alt="Promoção de eletrônicos">
+            </div>
+            <div class="carousel-navigation"></div>
+        </div>
+    </section>
+    <h2 id="titulo-produtos">Recomendações Personalizadas</h2>
+    <div id="produtos">
+        <div id="produto1">
+            <div id="primeiro">
+                <a href="computador.html"><img src="../imagens/produto1.png" alt="Imagem de um computador" id="imagem1"></a>
+                <img src="../imagens/heart.png" alt="Favoritar" id="favoritar1" class="heart" onmouseover="mudarImagem()" onmouseout="resetarImagem()" onclick="favoritar(this)">
+                <div id="desconto1">-10%</div>
+                <a href="computador.html">
+                    <div id="link">
+                        <h3>Computador Completo Dual-Core 4Gb Ssd 120Gb Monitor 15 Monitor - 120 gb - Desktop - Real - 4 gb - Intel dual core - Windows 10 - 15 - Completo - Bivolt
+                        </h3>
+                        <div id="estrelas">
+                            <p>
+                                <span class="estrela">&#9733;</span>
+                                <span class="estrela">&#9733;</span>
+                                <span class="estrela">&#9733;</span>
+                                <span class="estrela">&#9733;</span>
+                                <span class="estrela ultimo cinza" >&#9733;</span>
+                                Eletrodomésticos
+                            </p>
+                        </div>
+                        <p class="verde"><del>R$ 989,00</del>      R$ 890,10</p>
+                    </div>
+                </a>
+                <div id="quantidade"></div>
+            </div>
+        </div>
+        <div id="produto2">
+            <img src="../imagens/produto2.jpg" alt="Livro Duna" id="produto2">
+            <img src="../imagens/heart.png" alt="Favoritar" id="favoritar2" class="heart" onmouseover="mudarImagem2()" onmouseout="resetarImagem2()" onclick="favoritar2()">
+            <div id="desconto5">-18%</div>
+            <h3 id="duna">Duna: livro 1 Capa dura - Edição padrão, 28 abril 2017
+            </h3>
+            <div id="estrelas">
+                <p>
+                    <span class="estrela">&#9733;</span>
+                    <span class="estrela">&#9733;</span>
+                    <span class="estrela">&#9733;</span>
+                    <span class="estrela">&#9733;</span>
+                    <span class="ultimo" class="estrela">&#9733;</span>
+                    Livros
+                </p>
+            </div>
+            <p class="verde"><del>R$ 27,90 </del>          R$ 22,88</p>
+        </div>
+        <div id="produto3">
+            <img src="../imagens/produto3.png" alt="Geladeira" id="produto3">
+            <img src="../imagens/heart.png" alt="Favoritar" id="favoritar3" class="heart" onmouseover="mudarImagem3()" onmouseout="resetarImagem3()" onclick="favoritar3()">
+            <h3>Geladeira Electrolux Frost Free Inverter 431L AutoSense Duplex Cor Black Inox Look
+            </h3>
+            <div id="estrelas">
+                <p>
+                    <span class="estrela">&#9733;</span>
+                    <span class="estrela">&#9733;</span>
+                    <span class="estrela">&#9733;</span>
+                    <span class="estrela">&#9733;</span>
+                    <span class="ultimo" class="estrela">&#9733;</span>
+                    Eletrodomésticos
+                </p>
+            </div>
+            <p>R$3.999,00</p>
+        </div>
+        <div id="produto4">
+            <img src="../imagens/produto4.jpg" alt="Notebook" id="produto4">
+            <img src="../imagens/heart.png" alt="Favoritar" id="favoritar4" class="heart" onmouseover="mudarImagem4()" onmouseout="resetarImagem4()" onclick="favoritar4()">
+            <h3>Notebook IdeaPad 1i (14" Intel)
+            </h3>
+            <div id="estrelas">
+                <p>
+                    <span class="estrela">&#9733;</span>
+                    <span class="estrela">&#9733;</span>
+                    <span class="estrela">&#9733;</span>
+                    <span class="estrela">&#9733;</span>
+                    <span class="ultimo" class="estrela">&#9733;</span>
+                    Eletrodomésticos
+                </p>
+            </div>
+            <p>R$ 1.847,99</p>
+        </div>
+        <div id="produto5">
+            <img src="../imagens/produto5.png" alt="Imagem de um computador" id="produto5">
+            <img src="../imagens/heart.png" alt="Favoritar" id="favoritar5" class="heart" onmouseover="mudarImagem5()" onmouseout="resetarImagem5()" onclick="favoritar5()">
+            <div id="desconto2">
+                -15%
+            </div>
+            <h3>Computador Completo 19 Intel Core i5 16GB ssd 512GB 3green
+            </h3>
+            <div id="estrelas">
+                <p>
+                    <span class="estrela">&#9733;</span>
+                    <span class="estrela">&#9733;</span>
+                    <span class="estrela">&#9733;</span>
+                    <span class="estrela">&#9733;</span>
+                    <span class="ultimo" class="estrela">&#9733;</span>
+                    Eletrodomésticos
+                </p>
+            </div>
+            <p class="verde"><del>R$ 1.962,00</del>      R$ 1.765,86</p>
+        </div>
+        <div id="produto6">
+            <img src="../imagens/produto6.jpg" alt="Smartphone" id="produto6">
+            <img src="../imagens/heart.png" alt="Favoritar" id="favoritar6" class="heart" onmouseover="mudarImagem6()" onmouseout="resetarImagem6()" onclick="favoritar6()">
+
+            <h3>Smartphone Motorola Moto G G52 4GB RAM 128GB Câmera Tripla
+            </h3>
+            <div id="estrelas">
+                <p>
+                    <span class="estrela">&#9733;</span>
+                    <span class="estrela">&#9733;</span>
+                    <span class="estrela">&#9733;</span>
+                    <span class="estrela">&#9733;</span>
+                    <span class="ultimo" class="estrela">&#9733;</span>
+                    Eletrodomésticos, Celulares
+                </p>
+            </div>
+            <p>R$1.099,00</p>
+        </div>
+    </div>
+    <h2>Ofertas do dia</h2>
+    <div id="ofertas">
+        <div id="bicicleta">
+            <img src="../imagens/bicicleta.jpg" alt="Bicicleta Ergométrica" id="bicicleta">
+            <img src="../imagens/heart.png" alt="Favoritar" id="favoritar7" class="heart" onmouseover="mudarImagem7()" onmouseout="resetarImagem7()" onclick="favoritar7()">
+            <h3>Bicicleta Ergométrica Vertical Magnética Residencial Bonafit
+            </h3>
+            <div id="estrelas">
+                <p>
+                    <span class="estrela">&#9733;</span>
+                    <span class="estrela">&#9733;</span>
+                    <span class="estrela">&#9733;</span>
+                    <span class="estrela">&#9733;</span>
+                    <span class="ultimo" class="estrela">&#9733;</span>
+                    Esportes e Lazer
+                </p>
+            </div>
+            <p>R$ 2.016,82</p>
+        </div>
+        <div id="tapete">
+            <img src="../imagens/tapete.jpg" alt="Tapete" id="tapete">
+            <img src="../imagens/heart.png" alt="Favoritar" id="favoritar8" class="heart" onmouseover="mudarImagem8()" onmouseout="resetarImagem8()" onclick="favoritar8()">
+            <h3>Tapete decorativo de pipoca, para cinema interior, tapete decorativo, cartaz de cinema, tapetes de sala de estar, tapete de área de decoração de casa à moda antiga, 9,5 x 1,5 m
+            </h3>
+            <div id="estrelas">
+                <p>
+                    <span class="estrela">&#9733;</span>
+                    <span class="estrela">&#9733;</span>
+                    <span class="estrela">&#9733;</span>
+                    <span class="estrela">&#9733;</span>
+                    <span class="ultimo" class="estrela">&#9733;</span>
+                    Móveis e decoração
+                </p>
+            </div>
+            <p>R$ 609,57</p>
+        </div>
+        <div id="maquiagem">
+            <img src="../imagens/maquiagem.jpg" alt="Kit de maquiagem" id="maquiagem">
+            <img src="../imagens/heart.png" alt="Favoritar" id="favoritar9" class="heart" onmouseover="mudarImagem9()" onmouseout="resetarImagem9()" onclick="favoritar9()">
+            <div id="desconto3">-20%</div>
+            <h3>Maleta De Maquiagem Completa Ruby Rose Essencial
+            </h3>
+            <div id="estrelas">
+                <p>
+                    <span class="estrela">&#9733;</span>
+                    <span class="estrela">&#9733;</span>
+                    <span class="estrela">&#9733;</span>
+                    <span class="estrela">&#9733;</span>
+                    <span class="ultimo" class="estrela">&#9733;</span>
+                    Beleza
+                </p>
+            </div>
+            <p class="verde"><del>R$ 134,16</del> R$ 167,70</p>
+        </div>
+        <div id="tenis">
+            <img src="../imagens/tenis.jpg" alt="Tênis" id="tenis">
+            <img src="../imagens/heart.png" alt="Favoritar" id="favoritar10" class="heart" onmouseover="mudarImagem10()" onmouseout="resetarImagem10()" onclick="favoritar10()">
+            <h3>Tênis Nike Air Max 270 React Bauhaus
+            </h3>
+            <div id="estrelas">
+                <p>
+                    <span class="estrela">&#9733;</span>
+                    <span class="estrela">&#9733;</span>
+                    <span class="estrela">&#9733;</span>
+                    <span class="estrela">&#9733;</span>
+                    <span class="ultimo" class="estrela">&#9733;</span>
+                    Moda
+                </p>
+            </div>
+            <p>R$ 649,90 
+            </p>
+        </div>
+        <div id="tv">
+            <img src="../imagens/tv.jpg" alt="TV Led" id="tv">
+            <img src="../imagens/heart.png" alt="Favoritar" id="favoritar11" class="heart" onmouseover="mudarImagem11()" onmouseout="resetarImagem11()" onclick="favoritar11()">
+            <h3>Smart TV LED 55" UHD 4K Samsung 55CU7700 Crystal - 3 HDMI 1 USB
+            </h3>
+            <div id="estrelas">
+                <p>
+                    <span class="estrela">&#9733;</span>
+                    <span class="estrela">&#9733;</span>
+                    <span class="estrela">&#9733;</span>
+                    <span class="estrela">&#9733;</span>
+                    <span class="ultimo" class="estrela">&#9733;</span>
+                    Eletrodomésticos
+                </p>
+            </div>
+            <p>R$ 2.469,91
+            </p>
+        </div>
+    </div>
+    <div id="redesSociais">
+        <h2 id="fale">Fale conosco</h2>
+        <p>(81)8552-1110 <img src="../imagens/whatsapp.png" alt="Símbolo do WhatsApp" id="whatsapp"></p>
+        <div id="redes">
+            <img src="../imagens/instagram.png" alt="Símbolo do instagram">
+            <img src="../imagens/x.png" alt="Símbolo do X">
+            <img src="../imagens/youtube.png" alt="Símbolo do Youtube">
+            <img src="../imagens/facebook.png" alt="Símbolo do Facebook">
+        </div>
+    </div>
+    <footer>
+        &copy; 2024 Henrique Silva Xavier. Todos os direitos reservados.
+    </footer>
+</body>
+<script src="../JS/index.js">
+</script>
+</html>
