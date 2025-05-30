@@ -14,7 +14,7 @@ O site **Lojas Henri** é uma plataforma online para exibir produtos, promoçõe
 - Avaliações por estrelas para os produtos, facilitando a escolha dos clientes
 - Botões para favoritar produtos, possibilitando criar uma lista personalizada de favoritos
 - Página de promoções e ofertas especiais
-- Seção de contato com formulário para dúvidas e sugestões
+- Seção de contato para dúvidas e sugestões
 - Layout responsivo, adaptado para dispositivos móveis e desktops
 - Menu de navegação intuitivo para fácil acesso às seções do site
 
